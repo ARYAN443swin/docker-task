@@ -1,0 +1,38 @@
+{
+  "file": "sample.csv",
+  "rows": 4,
+  "columns": 4,
+  "profiled_at": "2026-09-27T03:18:03.865024+00:00",
+  "column_profiles": [
+    {
+      "column": "id",
+      "type": "numeric",
+      "nulls": 0,
+      "distinct": 4,
+      "min": 1.0,
+      "max": 4.0,
+      "mean": 2.5
+    },
+    {
+      "column": "name",
+      "type": "text",
+      "nulls": 0,
+      "distinct": 4
+    },
+    {
+      "column": "score",
+      "type": "numeric",
+      "nulls": 1,
+      "distinct": 3,
+      "min": 73.25,
+      "max": 91.0,
+      "mean": 84.25
+    },
+    {
+      "column": "active",
+      "type": "text",
+      "nulls": 0,
+      "distinct": 2
+    }
+  ]
+}

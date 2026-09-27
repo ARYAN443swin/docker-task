@@ -1,0 +1,32 @@
+{
+  "file": "products.csv",
+  "rows": 3,
+  "columns": 3,
+  "profiled_at": "2026-09-27T03:18:03.851306+00:00",
+  "column_profiles": [
+    {
+      "column": "product",
+      "type": "text",
+      "nulls": 0,
+      "distinct": 3
+    },
+    {
+      "column": "price",
+      "type": "numeric",
+      "nulls": 1,
+      "distinct": 2,
+      "min": 7.25,
+      "max": 12.5,
+      "mean": 9.875
+    },
+    {
+      "column": "stock",
+      "type": "numeric",
+      "nulls": 0,
+      "distinct": 3,
+      "min": 0.0,
+      "max": 40.0,
+      "mean": 18.333333333333332
+    }
+  ]
+}
